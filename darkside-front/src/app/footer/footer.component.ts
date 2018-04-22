@@ -13,19 +13,19 @@ export class FooterComponent implements OnInit {
   }
 
   redirectToAbout(): void {
-    window.location.href = 'http://localhost:4200/accueil#about';
+    window.location.href = 'http://217.182.170.151:4444/accueil#about';
   }
 
   redirectToSalles(): void {
-    window.location.href = 'http://localhost:4200/accueil#salles';
+    window.location.href = 'http://217.182.170.151:4444/accueil#salles';
   }
 
   redirectToTarif(): void {
-    window.location.href = 'http://localhost:4200/accueil#price';
+    window.location.href = 'http://217.182.170.151:4444/accueil#price';
   }
 
   redirectToContact(): void {
-    window.location.href = 'http://localhost:4200/accueil#contact';
+    window.location.href = 'http://217.182.170.151:4444/accueil#contact';
   }
 
 }
